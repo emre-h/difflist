@@ -39,7 +39,9 @@ for i in fll:
     if i in sll:
         sll.remove(i)
 
-print("Final List:")
+print("Final list has been created successfully")
 
 for i in sll:
-    print(i, end="")
+    with open('finalList.txt', 'w') as f:
+        for item in sll:
+            f.write("%s" % item)
