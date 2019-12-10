@@ -10,4 +10,4 @@ A tool for wordlist generation etc.
 I am planning to code multi-worlist support.
 
 # Usage
-python3 difflist.py -f <firstwl> -s <secondwl>
+python3 difflist.py -f firstwl -s secondwl
